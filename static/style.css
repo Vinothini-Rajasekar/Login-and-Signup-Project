@@ -1,0 +1,35 @@
+h1{
+    color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+}
+
+label {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+#submit
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color:pink
+}
+

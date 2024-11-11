@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="=en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width =width,initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href ="{% static 'style.css' %}">
+    
+    
+
+</head>
+<body><br><br><br><br>
+    <h1>Welcome To Django</h1><br>
+
+    
+<form method="POST" action="{% url 'signin' %}">
+        {% csrf_token %}
+       
+    
+           
+    
+    <label><b>username: </b>
+    <input type="text" placeholder="Enter name" name="username" required>
+    </label><br>
+
+    
+
+    <label><b>password </b>
+    <input type="text" placeholder="Enter password" name="password" required>
+    </label><br>
+    
+    
+
+      
+
+    <div>
+    <button type="submit"><b>Login</b><br></button>
+    <input type="checkbox" checked="checked" name="remember"><b> Remember me </b></div><br>
+</form>
+    
+
+</body>
+</html>
